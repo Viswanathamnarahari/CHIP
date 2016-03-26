@@ -1,3 +1,4 @@
+#This program blinks status led on CHIP 7 times.
 for i in 1 2 3 4 5 6 7
 do
  sudo i2cset -f -y 0 0x34 0x93 0x0
